@@ -1,0 +1,12 @@
+{
+  "name": "idfoto-ferramentas-ocr",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Só baixa as bibliotecas do OCR local e copia para ../ocr. Fica numa pasta à parte para a Vercel não instalar nada.",
+  "scripts": { "ocr": "node copiar-ocr.js" },
+  "devDependencies": {
+    "tesseract.js": "5.1.1",
+    "tesseract.js-core": "5.1.1",
+    "@tesseract.js-data/eng": "1.0.0"
+  }
+}
